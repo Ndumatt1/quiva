@@ -1,5 +1,7 @@
 ## Running the app
 
+Create a .env file in the root directory with DATABASE_URL.
+
 ```bash
 # development
 $ yarn run start
@@ -55,7 +57,7 @@ This API provides functionality to manage characters, episodes, comments, and lo
 - **Response**:
   - 200 OK: List of characters.
   - Example:
-    ```json
+    `json
     {
     "success": true,
     "data": [
@@ -89,7 +91,7 @@ This API provides functionality to manage characters, episodes, comments, and lo
     ],
     "message": "Characters fetched successfully"
 }
-    ```
+    `
 
 ### Create Character
 
@@ -128,7 +130,7 @@ This API provides functionality to manage characters, episodes, comments, and lo
 - **Response**:
   - 200 OK: List of episodes where the character appears.
   - Example:
-    ```json
+    `json
     {
     "success": true,
     "data": [
@@ -163,7 +165,7 @@ This API provides functionality to manage characters, episodes, comments, and lo
     ],
     "message": "Episodes fetched successfully"
 }
-    ```
+    `
 
 ## Comment Endpoints
 
@@ -174,7 +176,7 @@ This API provides functionality to manage characters, episodes, comments, and lo
 - **Response**:
   - 200 OK: List of comments.
   - Example:
-    ```json
+    `json
     {
     "success": true,
     "data": [
@@ -191,7 +193,7 @@ This API provides functionality to manage characters, episodes, comments, and lo
     ],
     "message": "Comments fetched successfully"
 }
-    ```
+    `
 
 ## Episode Endpoints
 
@@ -206,7 +208,7 @@ This API provides functionality to manage characters, episodes, comments, and lo
 - **Response**:
   - 201 Created: The created episode.
   - Example:
-    ```json
+    `json
     {
     "success": true,
     "data": {
@@ -218,7 +220,7 @@ This API provides functionality to manage characters, episodes, comments, and lo
     },
     "message": "Episode created successfully"
 }
-    ```
+    `
 
 ### List Episodes
 
@@ -227,7 +229,7 @@ This API provides functionality to manage characters, episodes, comments, and lo
 - **Response**:
   - 200 OK: List of episodes.
   - Example:
-    ```json
+    `json
     [
     {
         "id": "7123e73b-ea32-4703-b2cb-0ea88425fa6e",
@@ -246,7 +248,7 @@ This API provides functionality to manage characters, episodes, comments, and lo
         "commentCount": 1
     }
 ]
-    ```
+    `
 
 ### Find Single Episode
 
@@ -257,7 +259,7 @@ This API provides functionality to manage characters, episodes, comments, and lo
 - **Response**:
   - 200 OK: The episode details.
   - Example:
-    ```json
+    `json
     {
     "success": true,
     "data": {
@@ -277,7 +279,7 @@ This API provides functionality to manage characters, episodes, comments, and lo
     },
     "message": "Episode fetched successfully"
 }
-    ```
+    `
 
 ### Add Comment to Episode
 
