@@ -1,6 +1,6 @@
 ## Running the app
 
-Create a .env file in the root directory with DATABASE_URL.
+Create a .env file in the root directory with ```DATABASE_URL``` as key to the postgres database.
 
 ```bash
 # development
